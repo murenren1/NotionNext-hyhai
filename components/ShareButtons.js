@@ -47,9 +47,7 @@ import {
   InstapaperShareButton,
   InstapaperIcon,
   HatenaShareButton,
-  HatenaIcon,
-  ZhihuiShareButton,
-  ZhihuiIcon,
+  HatenaIcon
 } from 'react-share'
 
 const QrCode = dynamic(() => import('@/components/QrCode'), { ssr: false })
